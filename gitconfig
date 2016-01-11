@@ -1,0 +1,11 @@
+[user]
+	name = Andrew Ratliff
+	email = andrew.ratliff@gmail.com
+[credential]
+	helper = osxkeychain
+[push]
+	default = simple
+[core]
+	excludesfile = /Users/andrewratliff/.gitignore
+[alias]
+	co = checkout
