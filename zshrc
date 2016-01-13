@@ -82,5 +82,8 @@ source $HOME/.zsh_aliases
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias dots="cd ~/.dotfiles"
+alias reload="source ~/.zshrc"
+
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
