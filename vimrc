@@ -60,6 +60,7 @@ filetype indent on    " Enable filetype-specific indenting
 filetype plugin on    " Enable filetype-specific plugins
 set ruler
 set number
+set relativenumber
 set backspace=indent,eol,start
 
 " Close vim if NERDTree is the only open window
