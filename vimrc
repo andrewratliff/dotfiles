@@ -97,6 +97,9 @@ set smartcase
 " yanks to OSX clipboard
 set clipboard=unnamed
 
+" set leader to spacebar
+:let mapleader = " "
+
 " move line-wise on wrapped lines
 nnoremap j gj
 nnoremap k gk
