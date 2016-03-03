@@ -20,6 +20,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plugin 'junegunn/fzf.vim'
 Plugin 'wakatime/vim-wakatime'
+Plugin 'scrooloose/nerdcommenter'
 
 " JS Plugins
 Plugin 'gavocanov/vim-js-indent'
