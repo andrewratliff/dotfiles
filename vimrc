@@ -106,3 +106,6 @@ nnoremap k gk
 " colors
 set background=dark
 colorscheme solarized
+
+" highlight comments in vim
+highlight Comment cterm=italic
