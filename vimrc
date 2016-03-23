@@ -21,6 +21,7 @@ Plugin 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plugin 'junegunn/fzf.vim'
 Plugin 'wakatime/vim-wakatime'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'itspriddle/vim-marked', { 'for': 'markdown' }
 
 " JS Plugins
 Plugin 'gavocanov/vim-js-indent'
@@ -109,3 +110,6 @@ colorscheme solarized
 
 " highlight comments in vim
 highlight Comment cterm=italic
+
+" use Markoff for Markdown previews
+let g:marked_app = 'Markoff'
