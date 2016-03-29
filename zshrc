@@ -87,6 +87,7 @@ alias tmux="TERM=screen-256color-bce tmux"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias dots="cd ~/.dotfiles"
 alias reload="source ~/.zshrc"
+alias launchschool="cd ~/src/launchschool"
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
