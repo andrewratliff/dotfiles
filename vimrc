@@ -14,7 +14,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
 Plugin 'tpope/vim-fugitive'
-Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-vinegar'
 Plugin 'scrooloose/syntastic'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
@@ -80,16 +80,6 @@ set ruler
 set number
 set relativenumber
 set backspace=indent,eol,start
-
-" Close vim if NERDTree is the only open window
-autocmd bufenter *
-			\ if (winnr("$") == 1 && exists("b:NERDTreeType")
-			\ && b:NERDTreeType == "primary") | q | endif
-
-" nerdtree
-autocmd VimEnter * NERDTree
-let NERDTreeIgnore=['\~$', '^\.git', '\.swp$', '\.DS_Store$']
-let NERDTreeShowHidden=1
 
 " searching
 set hlsearch
