@@ -22,6 +22,8 @@ Plugin 'junegunn/fzf.vim'
 Plugin 'wakatime/vim-wakatime'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'itspriddle/vim-marked', { 'for': 'markdown' }
+" Jellybean color scheme
+Plugin 'nanotech/jellybeans.vim'
 
 " JS Plugins
 Plugin 'gavocanov/vim-js-indent'
@@ -106,7 +108,6 @@ nnoremap j gj
 nnoremap k gk
 " colors
 set background=dark
-colorscheme solarized
 
 " highlight comments in vim
 highlight Comment cterm=italic
