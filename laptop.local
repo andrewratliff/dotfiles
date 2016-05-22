@@ -5,6 +5,7 @@ brew tap caskroom/cask
 brew tap caskroom/versions
 brew tap homebrew/boneyard
 brew tap caskroom/fonts
+brew tap thoughtbot/formulae
 
 # Updated grep
 brew tap homebrew/dupes
@@ -25,6 +26,9 @@ brew install brew-cask
 brew install git
 brew install git-extras
 brew install wget
+brew install rcm
+brew install lastpass-cli --with-pinentry
+brew install youtube-dl
 
 # Updated python/pip
 brew install python
@@ -42,7 +46,6 @@ brew cask install google-chrome
 brew cask install google-hangouts
 brew cask install dash
 brew cask install the-unarchiver
-brew cask install lastpass-universal
 brew cask install caffeine
 brew cask install bettertouchtool
 brew cask install flux
@@ -51,6 +54,8 @@ brew cask install screenhero
 brew cask install private-internet-access
 brew cask install marked
 brew cask install tomighty
+brew cask install ngrok
+brew cask install intellij-idea
 
 # Install GNU core utilities (those that come with OS X are outdated)
 brew install coreutils
