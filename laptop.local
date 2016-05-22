@@ -1,0 +1,68 @@
+#!/bin/sh
+
+# homebrew taps
+brew tap caskroom/cask
+brew tap caskroom/versions
+brew tap homebrew/boneyard
+brew tap caskroom/fonts
+
+# Updated grep
+brew tap homebrew/dupes
+brew install grep
+
+# Updated curl
+brew install curl
+brew link curl --force
+
+# Updated bash
+brew install bash
+
+brew cask install font-inconsolata
+brew cask install font-source-code-pro
+
+# homebrew apps
+brew install brew-cask
+brew install git
+brew install git-extras
+brew install wget
+
+# Updated python/pip
+brew install python
+pip install --upgrade setuptools
+pip install --upgrade pip
+
+# cask apps
+brew cask install vlc
+brew cask install android-file-transfer
+brew cask install dropbox
+brew cask install slack
+brew cask install firefox
+brew cask install alfred
+brew cask install google-chrome
+brew cask install google-hangouts
+brew cask install dash
+brew cask install the-unarchiver
+brew cask install lastpass-universal
+brew cask install caffeine
+brew cask install bettertouchtool
+brew cask install flux
+brew cask install flycut
+brew cask install screenhero
+brew cask install private-internet-access
+brew cask install marked
+brew cask install tomighty
+
+# Install GNU core utilities (those that come with OS X are outdated)
+brew install coreutils
+
+pip install mackup
+
+npm install -g yo
+npm install -g generator-webapp
+
+
+# cask quick look plugins (https://github.com/sindresorhus/quick-look-plugins)
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql suspicious-package
+
+# verify
+brew doctor
